@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>iRacingDirector.Plugin</id>
+    <version>$version$</version>
+    <title>iRacingDirector.Plugin</title>
+    <authors>Dean Netherton</authors>
+    <owners>Dean Netherton</owners>
+    <projectUrl>https://github.com/vipoo/iRacingDirector.Plugin.Net</projectUrl>
+    <licenseUrl>https://github.com/vipoo/iRacingDirector.Plugin.Net/blob/master/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      Required reference, to build plugins for the iRacing Replay Director application
+    </description>
+    <copyright>Copyright 2016</copyright>
+    <tags>iRacing, iRacingDirector.Plugin</tags>
+    <dependencies>
+      <dependency id="iRacingSDK" version="1.0.0.33" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\iRacingDirector.Plugin.dll" target="lib\net40-client" />
+    <file src="bin\Release\iRacingDirector.Plugin.pdb" target="lib\net40-client" />
+  </files>
+</package>

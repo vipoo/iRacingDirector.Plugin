@@ -1,5 +1,5 @@
-SET SolutionDir=%~dp0
-SET ProjectDir=%~dp0
+SET SolutionDir=%~dp0..\
+SET ProjectDir=%~dp0..\
 
 msbuild %ProjectDir%iRacingDirector.Plugin.csproj -p:SolutionDir=%SolutionDir% -t:rebuild -p:ApplicationVersion=%APPVEYOR_BUILD_VERSION% -v:minimal -p:Configuration=Release
 
