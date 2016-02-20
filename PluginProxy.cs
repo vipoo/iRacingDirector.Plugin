@@ -20,7 +20,7 @@ using System.Reflection;
 
 namespace iRacingDirector
 {
-    public class PluginProxy : MarshalByRefObject, IPlugin
+    public class PluginProxy : IPlugin
     {
         public PluginProxy(string pluginPath)
         {
